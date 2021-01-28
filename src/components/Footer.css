@@ -1,0 +1,39 @@
+
+.footer-container {
+  color: black;
+  background: white;
+  border-top: 2px solid #fcfcfc;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+ul {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #878787;
+}
+
+@media screen and (min-width: 800px) {
+  .footer-container {
+    display: none;
+  }
+}
+
+

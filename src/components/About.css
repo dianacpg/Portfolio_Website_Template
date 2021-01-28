@@ -1,0 +1,51 @@
+h1 {
+  margin: 25px;
+  font-size: 25px;
+}
+
+h2{
+  margin-left: 10px;
+}
+.subtitle {
+  background-image: url(DSCF7858.jpg);
+  background-position: 50% 50%;
+  background-size: 100%;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  text-justify: inter-word;
+}
+
+
+.right_side{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 25px;
+}
+.left_side{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 25px;
+
+}
+
+.right_side:hoover{
+  background-color: red;
+}
+
+
+
+.about_text {
+  font-size: 12px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 127px;
+  text-align: justify;
+
+
+}
