@@ -10,11 +10,6 @@ const images = [
   { id: '14', imageName: 'enchufada5.jpg', tag: 'enchufada' },
   { id: '15', imageName: 'enchufada6.jpg', tag: 'enchufada' },
   { id: '16', imageName: 'enchufada7.jpg', tag: 'enchufada' },
-  { id: '17', imageName: 'nomada1.jpg', tag: 'Nomada' },
-  { id: '18', imageName: 'nomada2.jpg', tag: 'Nomada' },
-  { id: '19', imageName: 'nomada4.jpg', tag: 'Nomada' },
-  { id: '20', imageName: 'nomada3.jpg', tag: 'Nomada' },
-  { id: '21', imageName: 'nomada5.jpg', tag: 'Nomada' },
   { id: '22', imageName: 'mechelas2.jpeg', tag: 'Mechelas' },
   { id: '23', imageName: 'mechelas1.jpg', tag: 'Mechelas' },
   { id: '24', imageName: 'mechelas3.jpeg', tag: 'Mechelas' },
@@ -66,7 +61,6 @@ function Indoor() {
     <div className="App">
       <div className="tags">
         <TagButton name="all" tagActive={tag === 'all' ? true : false} handleSetTag={setTag} /> /
-        <TagButton name="Nomada" tagActive={tag === 'Nomada' ? true : false} handleSetTag={setTag} /> /
         <TagButton name="Mechelas" tagActive={tag === 'Mechelas' ? true : false} handleSetTag={setTag} /> /
         <TagButton name="enchufada" tagActive={tag === 'enchufada' ? true : false} handleSetTag={setTag} /> /
         <TagButton name="others" tagActive={tag === 'others' ? true : false} handleSetTag={setTag} />

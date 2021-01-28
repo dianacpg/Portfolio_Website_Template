@@ -18,7 +18,7 @@ function Card() {
             </div>
             <div className='wrapper'>
             <Link to='/indoor' className='image'>
-              <img src={process.env.PUBLIC_URL + '/images/nomada1.jpg'} alt='colection' className='image__img' />
+              <img src={process.env.PUBLIC_URL + '/images/mechelas1.jpg'} alt='colection' className='image__img' />
               <div className='image__overlay'>
               <div className='image__tittle'>INDOOR</div>
               </div>
@@ -32,11 +32,21 @@ function Card() {
               </div>
             </Link>
             </div>
+
+
             <div className='wrapper'>
             <Link to='/indoor' className='image'>
               <img src={process.env.PUBLIC_URL + '/images/enchufada6.jpg'} alt='colection' className='image__img' />
               <div className='image__overlay'>
               <div className='image__tittle'>INDOOR</div>
+              </div>
+            </Link>
+            </div>
+            <div className='wrapper'>
+            <Link to='/indoor' className='image'>
+              <img src={process.env.PUBLIC_URL + '/images/reborned1.jpg'} alt='colection' className='image__img' />
+              <div className='image__overlay'>
+              <div className='image__tittle'>OUTDOOR</div>
               </div>
             </Link>
             </div>
@@ -56,14 +66,15 @@ function Card() {
               </div>
             </Link>
             </div>
-             <div className='wrapper'>
-            <Link to='/indoor' className='image'>
-              <img src={process.env.PUBLIC_URL + '/images/reborned1.jpg'} alt='colection' className='image__img' />
+            <div className='wrapper'>
+            <Link to='/outdoor' className='image'>
+              <img src={process.env.PUBLIC_URL + '/images/others6.jpg'} alt='colection' className='image__img' />
               <div className='image__overlay'>
-              <div className='image__tittle'>OUTDOOR</div>
+              <div className='image__tittle'>INDOOR</div>
               </div>
             </Link>
             </div>
+
    </div>
   </>
   );
