@@ -75,7 +75,7 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 60%;
     height: auto;
     opacity: 1;
     position: absolute;
