@@ -47,6 +47,10 @@ h2{
   margin-right: 25px;
   margin-bottom: 127px;
   text-align: justify;
+}
 
-
+@media (max-width: 800px) {
+li, .subtitle{
+  font-size: 10px;
+  }
 }

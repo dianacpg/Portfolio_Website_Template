@@ -49,3 +49,9 @@
 .image {
   width: 100%;
 }
+
+@media (max-width: 800px) {
+.tags {
+  font-size: 10px;
+  }
+}
