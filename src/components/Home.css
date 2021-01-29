@@ -24,7 +24,8 @@ ul {
 @media (max-width: 350px) {
 .background {
   background-image: url("reborned1.jpg");
-  background-position: center;
+  background-position: center center;
+  background-attachment: fixed;
   width: 100%;
   height: 1000px;
   border: 0px;
