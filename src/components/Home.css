@@ -21,9 +21,9 @@ ul {
   list-style-type: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 350px) {
 .background {
-  background-image: url("reborned2.webp");
+  background-image: url("reborned1.jpg");
   background-position: center;
   width: 100%;
   height: 1000px;
