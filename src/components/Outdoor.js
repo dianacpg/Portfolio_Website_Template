@@ -3,15 +3,15 @@ import './Outdoor.css';
 import { SRLWrapper } from 'simple-react-lightbox';
 
 const images = [
-  { id: '8', imageName: 'Quarteira_1.jpeg', tag: 'quarteira' },
-  { id: '9', imageName: 'Quarteira_2.jpeg', tag: 'quarteira' },
-  { id: '10', imageName: 'alentejo2.jpg', tag: 'alentejo2222' },
-  { id: '11', imageName: 'alentejo4.jpg', tag: 'alentejo2222' },
-  { id: '12', imageName: 'alentejo3.jpg', tag: 'alentejo2222' },
-  { id: '13', imageName: 'alentejo1.jpg', tag: 'alentejo2222' },
-  { id: '14', imageName: 'reborned1.jpg', tag: 'reborned' },
-  { id: '15', imageName: 'reborned2.jpg', tag: 'reborned' },
-  { id: '16', imageName: 'outdoorothers1.jpg', tag: 'others' }
+  { id: '8', imageName: 'quarteira1.webp', tag: 'quarteira' },
+  { id: '9', imageName: 'quarteira2.webp', tag: 'quarteira' },
+  { id: '10', imageName: 'alentejo2.webp', tag: 'alentejo2222' },
+  { id: '11', imageName: 'alentejo4.webp', tag: 'alentejo2222' },
+  { id: '12', imageName: 'alentejo3.webp', tag: 'alentejo2222' },
+  { id: '13', imageName: 'alentejo1.webp', tag: 'alentejo2222' },
+  { id: '14', imageName: 'reborned1.webp', tag: 'reborned' },
+  { id: '15', imageName: 'reborned2.webp', tag: 'reborned' },
+  { id: '16', imageName: 'outdoorothers1.webp', tag: 'others' }
 ];
 
 const options = {
