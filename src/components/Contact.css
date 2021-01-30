@@ -1,10 +1,11 @@
 .contactContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display:flex;
   justify-content: center;
+  align-items: center;
+  position: static;
+  flex-direction: column;
   font-size: 20px;
-  margin: 200px;
+  height:200px;
 }
 
 p {
