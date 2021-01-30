@@ -7,7 +7,7 @@ import Contact from './Contact';
 function Home () {
   return (
   <>
-    <div className='background'>
+    <div id='background'>
     </div>
     < Card />
     < Contact />
