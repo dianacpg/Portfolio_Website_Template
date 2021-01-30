@@ -18,7 +18,6 @@ function App() {
         <Router>
           <Navbar />
           <Scrolltotop/>
-        <Switch>
           <Route path='/' exact component=
           {Home} />
           <Route path='/Indoor' exact component=
@@ -29,7 +28,6 @@ function App() {
           {About} />
           <Route path='/contact' exact component=
           {Contact} />
-        </Switch>
           <Copyright />
           <Footer />
         </Router>
