@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   font-size: 25px;
-  margin-top: 200px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 300px;
+  margin: 200px;
 }
 
+p {
+  font-weight: 600;
+}
