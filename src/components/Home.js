@@ -8,9 +8,12 @@ function Home () {
   return (
   <>
     <div id='background'>
-    </div>
+    <div className= 'blanckspace'><p> </p></div>
+    <div className='bgsections'>
     < Card />
     < Contact />
+    </div>
+    </div>
   </>
   );
 }
