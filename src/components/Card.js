@@ -10,9 +10,9 @@ function Card() {
     <div className='cards-container'>
          <div className='wrapper'>
             <Link to='/indoor' className='image'>
-              <img src={process.env.PUBLIC_URL + '/images/quarteira1.webp'} alt='colection' className='image__img' />
+              <img src={process.env.PUBLIC_URL + '/images/enchufada1.webp'} alt='colection' className='image__img' />
               <div className='image__overlay'>
-              <div className='image__tittle'>OUTDOOR</div>
+              <div className='image__tittle'>INDOOR</div>
               </div>
             </Link>
             </div>
