@@ -1,4 +1,4 @@
-# Full Responsive Website Template 
+# Responsive Website Template 
 
 This is a full responsive Portfolio Website Template that i have made in React JS, no backend needed. 
 Made with create-react-app.
