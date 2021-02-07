@@ -3,7 +3,7 @@ h1 {
   font-size: 25px;
 }
 
-h2{
+h2 {
   margin-left: 10px;
 }
 .subtitle {
@@ -18,28 +18,24 @@ h2{
   background-repeat: no-repeat;
 }
 
-
-.right_side{
+.right_side {
   display: flex;
   justify-content: flex-start;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 25px;
 }
-.left_side{
+.left_side {
   display: flex;
   justify-content: flex-end;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-right: 25px;
-
 }
 
-.right_side:hoover{
+.right_side:hoover {
   background-color: red;
 }
-
-
 
 .about_text {
   font-size: 12px;
@@ -49,12 +45,13 @@ h2{
   text-align: justify;
 }
 
-.about_text p{
+.about_text p {
   font-weight: 400;
 }
 
 @media (max-width: 800px) {
-li, .subtitle{
-  font-size: 10px;
+  li,
+  .subtitle {
+    font-size: 10px;
   }
 }

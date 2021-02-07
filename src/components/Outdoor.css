@@ -3,7 +3,7 @@
   color: black;
   padding: 20px;
   background-color: white;
-  display:inline-block;
+  display: inline-block;
   width: 100%;
   height: auto;
 }
@@ -24,32 +24,30 @@
 .container {
   line-height: 10px;
   -webkit-column-count: 2;
-  -webkit-column-gap:   10px;
-  -moz-column-count:    2;
-  -moz-column-gap:      10px;
-  column-count:         2;
-  column-gap:           10px;
+  -webkit-column-gap: 10px;
+  -moz-column-count: 2;
+  -moz-column-gap: 10px;
+  column-count: 2;
+  column-gap: 10px;
   margin: 80px;
   font-weight: 600;
   max-width: 100%;
   max-height: 100%;
-
 }
 @media (max-width: 800px) {
-.container {
-  -moz-column-count:    1;
-  -webkit-column-count: 1;
-  column-count:         1;
+  .container {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
   }
 }
-
 
 .image {
   width: 100%;
 }
 
 @media (max-width: 800px) {
-.tags {
-  font-size: 10px;
+  .tags {
+    font-size: 10px;
   }
 }
