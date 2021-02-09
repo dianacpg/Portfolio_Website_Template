@@ -6,15 +6,15 @@ function Footer() {
   return (
     <>
       <div className="footer-container">
-        <Link to="/about">
+        <Link to={/* insert link to*/}>
           <ul>
-            <li>-41° 48' 36.54'' S</li>
-            <li>-68° 54' 22.57'' W</li>
+            <li>{/* insert word/icon */}</li>
+            <li>{/* insert word/icon */}</li>
           </ul>
         </Link>
         <a
           class="fab fa-instagram"
-          href="https://www.instagram.com/elianyuri/"
+          href={/* insert Instagram URL */}
           target="_blank"
         ></a>
       </div>

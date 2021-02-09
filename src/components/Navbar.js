@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="ian-logo">
           <Link to="/" className="navbar-logo">
             {" "}
-            ELIANYURI
+            LOGO
           </Link>
         </div>
         <div className="menu-icon" onClick={handleClick}>

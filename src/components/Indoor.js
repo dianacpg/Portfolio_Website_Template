@@ -3,34 +3,21 @@ import "./Outdoor.css";
 import { SRLWrapper } from "simple-react-lightbox";
 
 const images = [
-  { id: "10", imageName: "enchufada1.webp", tag: "enchufada" },
-  { id: "11", imageName: "enchufada2.webp", tag: "enchufada" },
-  { id: "12", imageName: "enchufada3.webp", tag: "enchufada" },
-  { id: "13", imageName: "enchufada4.webp", tag: "enchufada" },
-  { id: "14", imageName: "enchufada5.webp", tag: "enchufada" },
-  { id: "15", imageName: "enchufada6.webp", tag: "enchufada" },
-  { id: "16", imageName: "enchufada7.webp", tag: "enchufada" },
-  { id: "22", imageName: "mechelas2.webp", tag: "Mechelas" },
-  { id: "23", imageName: "mechelas1.webp", tag: "Mechelas" },
-  { id: "24", imageName: "mechelas3.webp", tag: "Mechelas" },
-  { id: "25", imageName: "mechelas4.webp", tag: "Mechelas" },
-  { id: "26", imageName: "others1.webp", tag: "others" },
-  { id: "27", imageName: "others6.webp", tag: "others" },
-  { id: "28", imageName: "others4.webp", tag: "others" },
-  { id: "29", imageName: "others3.webp", tag: "others" },
-  { id: "30", imageName: "others5.webp", tag: "others" },
-  { id: "31", imageName: "others2.webp", tag: "others" },
+  { id: "1", imageName: "image1.jpg", tag: "tag1" },
+  { id: "2", imageName: "image2.jpg", tag: "tag2" },
+  { id: "3", imageName: "image3.jpg", tag: "tag3" },
+  { id: "4", imageName: "image4.jpg", tag: "tag4" }
 ];
 
 const options = {
   settings: {
-    overlayColor: "rgb(25, 136, 124)",
-    autoplaySpeed: 1500,
+    overlayColor: "black",
+    autoplaySpeed: 2500,
     transitionSpeed: 900,
   },
   buttons: {
-    backgroundColor: "red",
-    iconColor: "rgba(126, 172, 139, 0.8)",
+    backgroundColor: "black",
+    iconColor: "white",
   },
   caption: {
     captionColor: "#a6cfa5",
@@ -39,9 +26,12 @@ const options = {
     captionTextTransform: "uppercase",
   },
   progressBar: {
-    height: "20px",
-    fillColor: "blue",
-    backgroundColor: "white",
+    height: "10px",
+    fillColor: "grey",
+    backgroundColor: "black",
+  },
+  buttons: {
+    showDownloadButton: false,
   },
 };
 
@@ -65,20 +55,20 @@ function Indoor() {
         />{" "}
         /
         <TagButton
-          name="Mechelas"
-          tagActive={tag === "Mechelas" ? true : false}
+          name="tag1"
+          tagActive={tag === "tag1" ? true : false}
           handleSetTag={setTag}
         />{" "}
         /
         <TagButton
-          name="enchufada"
-          tagActive={tag === "enchufada" ? true : false}
+          name="tag2"
+          tagActive={tag === "tag2" ? true : false}
           handleSetTag={setTag}
         />{" "}
         /
         <TagButton
-          name="others"
-          tagActive={tag === "others" ? true : false}
+          name="tag3"
+          tagActive={tag === "tag3" ? true : false}
           handleSetTag={setTag}
         />
       </div>

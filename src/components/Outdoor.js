@@ -3,26 +3,21 @@ import "./Outdoor.css";
 import { SRLWrapper } from "simple-react-lightbox";
 
 const images = [
-  { id: "8", imageName: "quarteira1.webp", tag: "quarteira" },
-  { id: "9", imageName: "quarteira2.webp", tag: "quarteira" },
-  { id: "10", imageName: "alentejo2.webp", tag: "alentejo2222" },
-  { id: "11", imageName: "alentejo4.webp", tag: "alentejo2222" },
-  { id: "12", imageName: "alentejo3.webp", tag: "alentejo2222" },
-  { id: "13", imageName: "alentejo1.webp", tag: "alentejo2222" },
-  { id: "14", imageName: "reborned1.webp", tag: "reborned" },
-  { id: "15", imageName: "reborned2.webp", tag: "reborned" },
-  { id: "16", imageName: "outdoorothers1.webp", tag: "others" },
+  { id: "5", imageName: "image5.jpg", tag: "tag5" },
+  { id: "6", imageName: "image6.jpg", tag: "tag6" },
+  { id: "7", imageName: "image7.jpg", tag: "tag7" },
+  { id: "8", imageName: "image8.jpg", tag: "tag8" },
 ];
 
 const options = {
   settings: {
-    overlayColor: "rgb(25, 136, 124)",
-    autoplaySpeed: 1500,
+    overlayColor: "black",
+    autoplaySpeed: 2500,
     transitionSpeed: 900,
   },
   buttons: {
-    backgroundColor: "red",
-    iconColor: "rgba(126, 172, 139, 0.8)",
+    backgroundColor: "black",
+    iconColor: "white",
   },
   caption: {
     captionColor: "#a6cfa5",
@@ -31,9 +26,12 @@ const options = {
     captionTextTransform: "uppercase",
   },
   progressBar: {
-    height: "20px",
-    fillColor: "blue",
-    backgroundColor: "white",
+    height: "10px",
+    fillColor: "grey",
+    backgroundColor: "black",
+  },
+  buttons: {
+    showDownloadButton: false,
   },
 };
 
@@ -57,26 +55,26 @@ function Outdoor() {
         />{" "}
         /
         <TagButton
-          name="quarteira"
-          tagActive={tag === "quarteira" ? true : false}
+          name="tag5"
+          tagActive={tag === "tag5" ? true : false}
           handleSetTag={setTag}
         />{" "}
         /
         <TagButton
-          name="alentejo2222"
-          tagActive={tag === "alentejo2222" ? true : false}
+          name="tag6"
+          tagActive={tag === "tag6" ? true : false}
           handleSetTag={setTag}
         />{" "}
         /
         <TagButton
-          name="reborned"
-          tagActive={tag === "reborned" ? true : false}
+          name="tag7"
+          tagActive={tag === "tag7" ? true : false}
           handleSetTag={setTag}
         />{" "}
         /
         <TagButton
-          name="others"
-          tagActive={tag === "others" ? true : false}
+          name="tag8"
+          tagActive={tag === "tag8" ? true : false}
           handleSetTag={setTag}
         />
       </div>

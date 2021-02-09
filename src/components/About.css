@@ -7,7 +7,7 @@ h2 {
   margin-left: 10px;
 }
 .subtitle {
-  background-image: url(DSCF7858.jpg);
+  background-image: url(); /* Select image for the About section */
   background-position: 50% 50%;
   background-size: 100%;
   font-weight: 400;
@@ -31,10 +31,6 @@ h2 {
   margin-top: 50px;
   margin-bottom: 50px;
   margin-right: 25px;
-}
-
-.right_side:hoover {
-  background-color: red;
 }
 
 .about_text {

@@ -5,11 +5,11 @@ function Copyright() {
   return (
     <>
       <div className="copyright">
-        <p>© Copyright Elianyuri. </p>
+        <p>© Copyright {/* insert name */}. </p>
         <p>
           {" "}
           Webdeveloped by
-          <i class="fas fa-code"> Dianacpg</i>
+          <i class="fas fa-code"> {/* insert name */}</i>
         </p>
       </div>
     </>
