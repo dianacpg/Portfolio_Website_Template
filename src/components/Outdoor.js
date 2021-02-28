@@ -49,26 +49,26 @@ const Outdoor = () => {
         />{" "}
         /
         <TagButton
-          name="quarteira"
-          tagActive={tag === "quarteira" ? true : false}
+          name="tag3"
+          tagActive={tag === "tag3" ? true : false}
           handleSetTag={setTag}
         />{" "}
         /
         <TagButton
-          name="alentejo2222"
-          tagActive={tag === "alentejo2222" ? true : false}
+          name="tag4"
+          tagActive={tag === "tag4" ? true : false}
           handleSetTag={setTag}
         />{" "}
         /
         <TagButton
-          name="reborned"
-          tagActive={tag === "reborned" ? true : false}
+          name="tag5"
+          tagActive={tag === "tag5" ? true : false}
           handleSetTag={setTag}
         />{" "}
         /
         <TagButton
-          name="others"
-          tagActive={tag === "others" ? true : false}
+          name="tag6"
+          tagActive={tag === "tag6" ? true : false}
           handleSetTag={setTag}
         />
       </div>

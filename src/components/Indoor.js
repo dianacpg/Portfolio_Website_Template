@@ -4,6 +4,8 @@ import { SRLWrapper } from "simple-react-lightbox";
 
 import { images } from "./Images.js";
 
+//your photos should be on the images array from Images.js
+
 const options = {
   settings: {
     overlayColor: "black",
@@ -50,14 +52,14 @@ const Indoor = () => {
         />{" "}
         /
         <TagButton
-          name="Mechelas"
-          tagActive={tag === "Mechelas" ? true : false}
+          name="tag1"
+          tagActive={tag === "tag1" ? true : false}
           handleSetTag={setTag}
         />{" "}
         /
         <TagButton
-          name="enchufada"
-          tagActive={tag === "enchufada" ? true : false}
+          name="tag2"
+          tagActive={tag === "tag2" ? true : false}
           handleSetTag={setTag}
         />{" "}
         /

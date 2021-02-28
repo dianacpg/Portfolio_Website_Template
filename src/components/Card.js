@@ -6,7 +6,7 @@ class Card extends Component {
   state = {
     cardlist: [
       {
-        src: "https://picsum.photos/200/300",
+        src: "https://picsum.photos/200/300", //put images on public/images forlder
         path: "/indoor",
         category: "INDOOR",
         id: 1,
