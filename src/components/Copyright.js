@@ -1,19 +1,19 @@
 import React from "react";
 import "./Copyright.css";
 
-function Copyright() {
+const Copyright = () => {
   return (
     <>
       <div className="copyright">
-        <p>© Copyright {/* insert name */}. </p>
+        <p>© Copyright yourname. </p>
         <p>
           {" "}
           Webdeveloped by
-          <i class="fas fa-code"> {/* insert name */}</i>
+          <i class="fas fa-code"> Dianacpg</i>
         </p>
       </div>
     </>
   );
-}
+};
 
 export default Copyright;

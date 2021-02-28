@@ -3,7 +3,7 @@ import "./Home.css";
 import Card from "./Card";
 import Contact from "./Contact";
 
-function Home() {
+const Home = () => {
   return (
     <>
       <div id="background">
@@ -17,6 +17,6 @@ function Home() {
       </div>
     </>
   );
-}
+};
 
 export default Home;

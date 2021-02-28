@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="ian-logo">
           <Link to="/" className="navbar-logo">
             {" "}
-            LOGO
+            YOURNAME
           </Link>
         </div>
         <div className="menu-icon" onClick={handleClick}>
@@ -49,7 +49,5 @@ const Navbar = () => {
     </>
   );
 };
-
-// https://csshint.com/link-style-hover-effect/ //
 
 export default Navbar;

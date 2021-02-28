@@ -2,24 +2,23 @@ import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
-function Footer() {
+const Footer = () => {
   return (
     <>
       <div className="footer-container">
-        <Link to={/* insert link to*/}>
+        <Link to="/about">
           <ul>
-            <li>{/* insert word/icon */}</li>
-            <li>{/* insert word/icon */}</li>
+            <li> INSET TEXT </li>
           </ul>
         </Link>
         <a
           class="fab fa-instagram"
-          href={/* insert Instagram URL */}
+          href="https://www.instagram.com/"
           target="_blank"
         ></a>
       </div>
     </>
   );
-}
+};
 
 export default Footer;

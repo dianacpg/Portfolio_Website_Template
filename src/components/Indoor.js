@@ -2,12 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Outdoor.css";
 import { SRLWrapper } from "simple-react-lightbox";
 
-const images = [
-  { id: "1", imageName: "image1.jpg", tag: "tag1" },
-  { id: "2", imageName: "image2.jpg", tag: "tag2" },
-  { id: "3", imageName: "image3.jpg", tag: "tag3" },
-  { id: "4", imageName: "image4.jpg", tag: "tag4" }
-];
+import { images } from "./Images.js";
 
 const options = {
   settings: {
@@ -35,7 +30,7 @@ const options = {
   },
 };
 
-function Indoor() {
+const Indoor = () => {
   const [tag, setTag] = useState("all");
   const [filteredImages, setFilteredImages] = useState([]);
 
@@ -55,20 +50,20 @@ function Indoor() {
         />{" "}
         /
         <TagButton
-          name="tag1"
-          tagActive={tag === "tag1" ? true : false}
+          name="Mechelas"
+          tagActive={tag === "Mechelas" ? true : false}
           handleSetTag={setTag}
         />{" "}
         /
         <TagButton
-          name="tag2"
-          tagActive={tag === "tag2" ? true : false}
+          name="enchufada"
+          tagActive={tag === "enchufada" ? true : false}
           handleSetTag={setTag}
         />{" "}
         /
         <TagButton
-          name="tag3"
-          tagActive={tag === "tag3" ? true : false}
+          name="others"
+          tagActive={tag === "others" ? true : false}
           handleSetTag={setTag}
         />
       </div>
@@ -89,7 +84,7 @@ function Indoor() {
       </SRLWrapper>
     </div>
   );
-}
+};
 
 const TagButton = ({ name, handleSetTag, tagActive }) => {
   return (

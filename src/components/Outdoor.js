@@ -1,13 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Outdoor.css";
 import { SRLWrapper } from "simple-react-lightbox";
-
-const images = [
-  { id: "5", imageName: "image5.jpg", tag: "tag5" },
-  { id: "6", imageName: "image6.jpg", tag: "tag6" },
-  { id: "7", imageName: "image7.jpg", tag: "tag7" },
-  { id: "8", imageName: "image8.jpg", tag: "tag8" },
-];
+import { images } from "./Images.js";
 
 const options = {
   settings: {
@@ -35,7 +29,7 @@ const options = {
   },
 };
 
-function Outdoor() {
+const Outdoor = () => {
   const [tag, setTag] = useState("all");
   const [filteredImages, setFilteredImages] = useState([]);
 
@@ -55,26 +49,26 @@ function Outdoor() {
         />{" "}
         /
         <TagButton
-          name="tag5"
-          tagActive={tag === "tag5" ? true : false}
+          name="quarteira"
+          tagActive={tag === "quarteira" ? true : false}
           handleSetTag={setTag}
         />{" "}
         /
         <TagButton
-          name="tag6"
-          tagActive={tag === "tag6" ? true : false}
+          name="alentejo2222"
+          tagActive={tag === "alentejo2222" ? true : false}
           handleSetTag={setTag}
         />{" "}
         /
         <TagButton
-          name="tag7"
-          tagActive={tag === "tag7" ? true : false}
+          name="reborned"
+          tagActive={tag === "reborned" ? true : false}
           handleSetTag={setTag}
         />{" "}
         /
         <TagButton
-          name="tag8"
-          tagActive={tag === "tag8" ? true : false}
+          name="others"
+          tagActive={tag === "others" ? true : false}
           handleSetTag={setTag}
         />
       </div>
@@ -95,7 +89,7 @@ function Outdoor() {
       </SRLWrapper>
     </div>
   );
-}
+};
 
 const TagButton = ({ name, handleSetTag, tagActive }) => {
   return (

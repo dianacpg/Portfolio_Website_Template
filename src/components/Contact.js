@@ -1,15 +1,19 @@
 import React from "react";
 import "./Contact.css";
 
-function Contact() {
+const Contact = () => {
   return (
     <div className="contactContainer">
-      <a href={/* Instagram URL*/} target="_blank" className="contact_button">
+      <a
+        href="https://www.instagram.com/"
+        target="_blank"
+        className="contact_button"
+      >
         Instagram
       </a>
-      <p>EMAIL</p>
+      <p>info@yourmail.com</p>
     </div>
   );
-}
+};
 
 export default Contact;

@@ -1,57 +1,67 @@
-import React from "react";
+import React, { Component } from "react";
 import Cardprops from "./Cardprops.js";
 import "./Card.css";
 
-function Card() {
-  return (
-    <>
+class Card extends Component {
+  state = {
+    cardlist: [
+      {
+        src: "https://picsum.photos/200/300",
+        path: "/indoor",
+        category: "INDOOR",
+        id: 1,
+      },
+      {
+        src: "https://picsum.photos/200/300",
+        path: "/indoor",
+        category: "INDOOR",
+        id: 2,
+      },
+      {
+        src: "https://picsum.photos/200/300",
+        path: "/indoor",
+        category: "INDOOR",
+        id: 3,
+      },
+      {
+        src: "https://picsum.photos/200/300",
+        path: "/indoor",
+        category: "INDOOR",
+        id: 4,
+      },
+      {
+        src: "https://picsum.photos/200/300",
+        path: "/indoor",
+        category: "OUTDOOR",
+        id: 5,
+      },
+      {
+        src: "https://picsum.photos/200/300",
+        path: "/outdoor",
+        category: "outdoor",
+        id: 6,
+      },
+      {
+        src: "https://picsum.photos/200/300",
+        path: "/outdoor",
+        category: "OUTDOOR",
+        id: 7,
+      },
+      {
+        src: "https://picsum.photos/200/300",
+        path: "/indoor",
+        category: "INDOOR",
+        id: 8,
+      },
+    ],
+  };
+  render() {
+    return (
       <div className="cards-container">
-        <Cardprops
-          src={process.env.PUBLIC_URL + "/images/enchufada1.webp"}
-          path="/indoor"
-          category="INDOOR"
-        />
-        <Cardprops
-          src={process.env.PUBLIC_URL + "/images/mechelas1.webp"}
-          path="/indoor"
-          category="INDOOR"
-        />
-        <Cardprops
-          src={process.env.PUBLIC_URL + "/images/others3.webp"}
-          path="/indoor"
-          category="INDOOR"
-        />
-
-        <Cardprops
-          src={process.env.PUBLIC_URL + "/images/enchufada6.webp"}
-          path="/indoor"
-          category="INDOOR"
-        />
-
-        <Cardprops
-          src={process.env.PUBLIC_URL + "/images/reborned1.webp"}
-          path="/indoor"
-          category="OUTDOOR"
-        />
-
-        <Cardprops
-          src={process.env.PUBLIC_URL + "/images/alentejo2.webp"}
-          path="/outdoor"
-          category="outdoor"
-        />
-        <Cardprops
-          src={process.env.PUBLIC_URL + "/images/outdoorothers1.webp"}
-          path="/outdoor"
-          category="OUTDOOR"
-        />
-        <Cardprops
-          src={process.env.PUBLIC_URL + "/images/others6.webp"}
-          path="/indoor"
-          category="INDOOR"
-        />
+        <Cardprops cardList={this.state.cardlist} />
       </div>
-    </>
-  );
+    );
+  }
 }
 
 export default Card;
